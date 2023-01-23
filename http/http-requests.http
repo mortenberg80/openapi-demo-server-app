@@ -1,0 +1,18 @@
+# curl --request GET 
+#  --url https://stoplight.io/mocks/tretoen/openapi-example/61177830/users 
+#  --header 'Content-Type: application/json' 
+#  --header 'Prefer: code=200, example=TwoPersons'
+GET https://stoplight.io/mocks/tretoen/openapi-example/61177830/users
+Prefer: code=200, example=TwoPersons
+Content-Type: application/json
+
+###
+
+# curl --request GET 
+#  --url 'http://localhost:8080/users?limit=20&offset=0' 
+#  --header 'Content-Type: application/json'
+GET http://localhost:8080/users?limit=20&offset=0
+Content-Type: application/json
+
+###
+
